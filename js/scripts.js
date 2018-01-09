@@ -16,3 +16,11 @@ var weight = parseFloat(prompt("Enter your weight in kilograms:"));
 var height = parseFloat(prompt("Enter your height in meters:"));
 
 alert(bmi(weight, height));
+
+var temp = function(celcius) {
+  return celcius * 1.8 + 32;
+};
+
+var celcius = parseFloat(prompt("Enter degrees celcuis:"));
+
+alert(temp(celcius))
